@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "BloodMoney",
+	"version": "0.0.0.1",
+	
+	"description": "Converts money as per http://www.raikoth.net/deadchild.html",
+	//need icons
+	
+	"author": "allexymite",
+	
+	"content_scripts": [{
+		"js": [ "jquery-2.1.4.min.js", "content.js" ],
+		"matches": [ "http://*/*", "https://*/*"]
+	}]
+}
